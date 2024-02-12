@@ -18,12 +18,9 @@ Attended an AWS Reinvent Recap day where they went through some of the major rel
 
 ### General Notes - Bedrock
 
+Models available in Bedrock:
 
-
-Models available in Bedrock
-
-
-
+![244A742E-DA8E-4622-B860-82F4A405578D](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/5c24590a-e692-456f-bebb-629d887425c8)
 
 
 Bedrock - Model Evaluation
