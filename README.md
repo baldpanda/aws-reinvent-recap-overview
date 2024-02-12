@@ -15,7 +15,6 @@ Attended an AWS Reinvent Recap day where they went through some of the major rel
 **Amazon Bedrock Agents** - really good demo where the speaker built a multi-step agent which would use the Jira API for carrying out tasks on a Jira board. They eventually built a RAG system using a code base to pick up Jira tasks and suggest the required code changes to complete the task. The speaker made a blog post on it [here](https://makit.net/blog/bedrock-agents-and-knowledge-bases-part-2/)   
 
 
-
 ### General Notes - Bedrock
 
 Models available in Bedrock:
@@ -25,25 +24,23 @@ Models available in Bedrock:
 
 Bedrock - Model Evaluation
 
-
-
-
+![B4388DC8-C23D-4047-9581-F0001151172B](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/ec4860eb-3e90-4688-9a68-c5bc32330736)
 
 Bedrock - Knowledge Bases
 
-
-
-
+![1869FFC6-EA65-49A4-A5C0-2D24C68EDAF3](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/261436b3-71d7-442b-b20d-df77b37345dc)
 
 Bedrock - Native Support Vector Databases
 
-
+![D066CEB8-F165-4E90-B22E-069F829693D6](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/14231e1b-9b69-4311-aab9-f0e99d72f8da)
 
 Bedrock - Agents
 
-
+![CE641DF6-8009-4029-AAE5-3D81AFDB51BA](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/91e0f66f-f40b-4221-a318-be7cfcfc50c1)
 
 Bedrock - Using Agents to build workflows
+
+![A39D6237-D655-48F7-82D6-7FB1A46AEAB5](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/07c6367f-a4ee-42c8-b60d-f4fffdf50e51)
 
 Support for fine-tuning Claude coming soon
 
@@ -51,7 +48,7 @@ Agents automatically create prompts based on user input. This includes things li
 
 Agents can provide chain of thought reasoning on why they executed tasks in a certain way
 
-AWS’s OpenSearch Vector DB is expensive (minimum $700 per month)
+AWS’s OpenSearch Vector DB can be expensive
 
 ### General Notes - Amazon Code Whisperer
 
@@ -77,6 +74,6 @@ Can use decorators in AWS Python SDK for helping to productionise Data Science p
 
 Referenced Resources Mentioned 
 
-  - written by AWS CTO for building cost optimised applications
+[Frugal Architect](https://www.thefrugalarchitect.com/) - written by AWS CTO for building cost optimised applications
 
-Accelerate - book on building lean software using DevOps principles
+[Accelerate](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/) - book on building lean software using DevOps principles
