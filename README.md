@@ -8,11 +8,11 @@ Attended an AWS Reinvent Recap day where they went through some of the major rel
 
 ### Highlights
 
-**Amazon Bedrock Knowledge Base**  - fully managed RAG workflow where the user can point to where the data is located in a bucket in S3, specify a vector database and AWS will build a RAG workflow for you. It handles the embedding of the data as well as the question answering aspect of the pipeline. Could be good to explore as an simplified alternative to the Haystack + Weaviate stack
+**Amazon Bedrock Knowledge Base**  - fully managed RAG workflow where the user can point to where the data is located in a bucket in S3, specify a vector database and AWS will build a RAG workflow for you. It handles the embedding of the data as well as the question answering aspect of the pipeline
 
-Amazon Q - initially comes across as AWS’s version of ChatGPT, but it can be used in multiple areas within AWS management console and it looks like it is easy to use custom data easily as well as different URLs (currently max 100) to extend the underlying models capabilities to specific company use cases. It can respect access control so that if there are different user profiles who are interacting with a company’s instance of Q, the permissions of the users is respected by the model so that there isn’t accidental data leakage. It is a black box, so not sure what models are used underneath or the data used for the initial training. “Built on 17 years of Amazon experience“ 
+**Amazon Q** - initially comes across as AWS’s version of ChatGPT, but it can be used in multiple areas within AWS management console and it looks like it is easy to use custom data easily as well as different URLs (currently max 100) to extend the underlying models capabilities to specific company use cases. It can respect access control so that if there are different user profiles who are interacting with a company’s instance of Q, the permissions of the users is respected by the model so that there isn’t accidental data leakage. It is a black box, so not sure what models are used underneath or the data used for the initial training. “Built on 17 years of Amazon experience“ 
 
-Amazon Bedrock Agents - really good demo where the speaker built a multi-step agent which would use the Jira API for carrying out tasks on a Jira board. They eventually built a RAG system using a code base to pick up Jira tasks and suggest the required code changes to complete the task. The speaker made a blog post on it here:   
+**Amazon Bedrock Agents** - really good demo where the speaker built a multi-step agent which would use the Jira API for carrying out tasks on a Jira board. They eventually built a RAG system using a code base to pick up Jira tasks and suggest the required code changes to complete the task. The speaker made a blog post on it [here](https://makit.net/blog/bedrock-agents-and-knowledge-bases-part-2/)   
 
 
 
