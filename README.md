@@ -17,12 +17,14 @@ Attended an AWS Reinvent Recap day where they went through some of the major rel
 
 ### General Notes - Bedrock
 
-Models available in Bedrock:
+AWS have partnered with some of the leaders in the LLM space including Anthropic with Claude and Meta with Llama 2 providing a diverse suite of models. Models available in Bedrock:
 
 ![244A742E-DA8E-4622-B860-82F4A405578D](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/5c24590a-e692-456f-bebb-629d887425c8)
 
 
 Bedrock - Model Evaluation:
+
+It is possible to evaluate the results of the foundational models against suitable metrics for a given task to do a comparison to decide which model performs best. Example metrics for a task such as text generation could include fairness, toxicity and accuracy. Model evaluation in Bedrock can be carried out automatically against open-source datasets including [Gigaword](https://huggingface.co/datasets/gigaword) and [BoolQ](https://huggingface.co/datasets/google/boolq) or through human workers such as SMEs or fellow employees
 
 ![B4388DC8-C23D-4047-9581-F0001151172B](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/ec4860eb-3e90-4688-9a68-c5bc32330736)
 
