@@ -22,19 +22,52 @@ AWS have partnered with some of the leaders in the LLM space including Anthropic
 ![244A742E-DA8E-4622-B860-82F4A405578D](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/5c24590a-e692-456f-bebb-629d887425c8)
 
 
-Bedrock - Model Evaluation:
+**Bedrock - Model Evaluation**
 
 It is possible to evaluate the results of the foundational models against suitable metrics for a given task to do a comparison to decide which model performs best. Example metrics for a task such as text generation could include fairness, toxicity and accuracy. Model evaluation in Bedrock can be carried out automatically against open-source datasets including [Gigaword](https://huggingface.co/datasets/gigaword) and [BoolQ](https://huggingface.co/datasets/google/boolq) or through human workers such as SMEs or fellow employees
 
 ![B4388DC8-C23D-4047-9581-F0001151172B](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/ec4860eb-3e90-4688-9a68-c5bc32330736)
 
-Bedrock - Knowledge Bases:
+**Bedrock - Knowledge Bases**
+
+Bedrock offers a managed RAG system abstracting away some of the operational complexity like setting up the embedding and inference pipelines, hosting the system and some of the maintenance overhead associated with such applications. 
 
 ![1869FFC6-EA65-49A4-A5C0-2D24C68EDAF3](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/261436b3-71d7-442b-b20d-df77b37345dc)
 
-Bedrock - Native Support Vector Databases:
+* It can be configured to collect data from an S3 bucket in one of the following formats:
+  * Plain text (.txt)
+  * Markdown (.md)
+  * HyperText Markup Language (.html)
+  * Microsoft Word document (.doc/.docx)
+  * Comma-separated values (.csv)
+  * Microsoft Excel spreadsheet (.xls/.xlsx)
+  * Portable Document Format (.pdf)
+ 
+* The data can be then be chunked, where the text is split into smaller chunks
+
+* A vector database must be configured for storing the embedded data. Supported vector databases:
+  * Amazon OpenSearch Serverless
+  * Amazon Aurora
+  * Pinecone
+  * Redis Enterprise Cloud
 
 ![D066CEB8-F165-4E90-B22E-069F829693D6](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/14231e1b-9b69-4311-aab9-f0e99d72f8da)
+
+* The data can be ingested into the vector database (creating the knowledge base) using one of the following models for the embedding:
+  * Titan G1 Embeddings - Text
+  * Cohere Embed English
+  * Cohere Embed Multilingual
+ 
+* The data can then be updated through incremental syncing
+
+* The RAG system can be called and through the AWS Management Console or through an API. Note that the models supported to query the knowledge base are:
+  * Anthropic Claude Instant v1
+  * Anthropic Claude v2.0
+  * Anthropic Claude v2.1
+
+
+The pricing of Bedrock Knowledgebase is based on the cost of the individual components which it is made up of (hosting the vector DB, storage costs in S3, embedding the data and the token based pricing for the question answering LLM.
+
 
 Bedrock - Agents:
 
