@@ -43,7 +43,7 @@ Bedrock offers a managed RAG system abstracting away some of the operational com
   * Microsoft Excel spreadsheet (.xls/.xlsx)
   * Portable Document Format (.pdf)
  
-* The data can be then be chunked, where the text is split into smaller chunks
+* The data can be then be chunked, where the text is split into smaller chunks (common technique for improving the performance of such systems)
 
 * A vector database must be configured for storing the embedded data. Supported vector databases:
   * Amazon OpenSearch Serverless
