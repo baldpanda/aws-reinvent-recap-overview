@@ -65,9 +65,9 @@ Bedrock offers a managed RAG system abstracting away some of the operational com
   * Anthropic Claude v2.0
   * Anthropic Claude v2.1
 
+The pricing of Bedrock Knowledge base is based on the cost of the individual components which it is made up of (hosting the vector DB, storage costs in S3, embedding the data and the token based pricing for the question answering LLM.
 
-The pricing of Bedrock Knowledgebase is based on the cost of the individual components which it is made up of (hosting the vector DB, storage costs in S3, embedding the data and the token based pricing for the question answering LLM.
-
+Overall, Knowledge base looks like a powerful tool to get a RAG system up and running quickly with minimal operational work. A potential downside is that it isn't model or vector DB agnostic. An example of where this might be detrimental is that if a more performant LLM was to come along, it might not be possible to use it. Similarly for the vector DB, it limits the options for different vendors and potentially locks the user in to certain technologies
 
 Bedrock - Agents:
 
