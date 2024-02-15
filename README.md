@@ -1,4 +1,4 @@
-# aws-reinvent-recap-overview
+# AWS ReInvent Recap - Manchester 2024
 
 ### Overview
 
