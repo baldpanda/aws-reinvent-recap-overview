@@ -69,7 +69,13 @@ The pricing of Bedrock Knowledge base is based on the cost of the individual com
 
 Overall, Knowledge base looks like a powerful tool to get a RAG system up and running quickly with minimal operational work. A potential downside is that it isn't model or vector DB agnostic. An example of where this might be detrimental is that if a more performant LLM was to come along, it might not be possible to use it. Similarly for the vector DB, it limits the options for different vendors and potentially locks the user in to certain technologies
 
-Bedrock - Agents:
+**Bedrock - Agents**
+
+"Agents orchestrate interactions between foundation models, data sources, software applications, and user conversations, and automatically call APIs to take actions and invoke knowledge bases to supplement information for these actions." 
+
+Can use agents to automate multistage tasks with integrations with foundation models, knowledge bases, RAG systems and custom API calls. It provides prompt templates out of the box which can be customised for different use-cases and chain of thought reasoning can be configured for tracing why the agent did certain actions for a given step. 
+
+There was a [good demo](https://makit.net/blog/bedrock-agents-and-knowledge-bases-part-2/) on the day where the speaker used Bedrock Agents combined with the Jira API for doing tasks like inspecting a codebase as a Knowledge base, carrying out some code quality checks and then creating Jira tickets off the back of it. Was really impressive and a good example for demoing the potenial usecases!
 
 ![CE641DF6-8009-4029-AAE5-3D81AFDB51BA](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/91e0f66f-f40b-4221-a318-be7cfcfc50c1)
 
@@ -112,3 +118,5 @@ Referenced Resources Mentioned
 [Frugal Architect](https://www.thefrugalarchitect.com/) - written by AWS CTO for building cost optimised applications
 
 [Accelerate](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/) - book on building lean software using DevOps principles
+
+[AWS Docs Agents](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html)
