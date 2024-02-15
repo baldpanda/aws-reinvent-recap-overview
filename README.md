@@ -109,8 +109,8 @@ Bedrock - Using Agents to build workflows:
 
 ### Referenced Resources Mentioned 
 
-* [Frugal Architect](https://www.thefrugalarchitect.com/) - written by AWS CTO for building cost optimised applications
+* [Frugal Architect](https://www.thefrugalarchitect.com/) - written by AWS CTO on principles for building cost efficient systems
 
-* [Accelerate](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/) - book on building lean software using DevOps principles
+* [Accelerate](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/) - book on evidence-based examination of how implementing lean management and DevOps practices can lead to higher efficiency and better outcomes in technology organisations. It gives real-world examples in the book
 
 * [AWS Docs Agents](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html)
