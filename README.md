@@ -97,13 +97,13 @@ Bedrock - Using Agents to build workflows:
 
 ### General Notes - SageMaker Updates
 
-* Possible to host multiple models on a single inference endpoints for cost optimisation
+* Possible to [host multiple models on a single inference endpoints](https://docs.aws.amazon.com/sagemaker/latest/dg/multi-model-endpoints.html) for cost optimisation
 
-* Can productionise notebooks using pipelines and construct DAGs using them. Could be useful for things like data pre-processing
+* Can [productionise notebooks using pipelines and construct DAGs using them](https://aws.amazon.com/blogs/machine-learning/schedule-amazon-sagemaker-notebook-jobs-and-manage-multi-step-notebook-workflows-using-apis/). Could be useful for things like data pre-processing
 
-* Canvas - no/low code tooling now supports Foundational models. Can use natural language for manipulating data
+* [Canvas](https://aws.amazon.com/sagemaker/canvas/) - no/low code tooling now supports Foundational models. Can use natural language for manipulating data
 
-* Clarify - supports explainability for foundational models such as metrics such as toxicity (responsible AI)
+* [Clarify](https://aws.amazon.com/sagemaker/clarify/) - supports explainability for foundational models such as metrics such as toxicity (responsible AI)
 
 * Can use decorators in AWS Python SDK for helping to productionise Data Science projects in SageMaker
 
