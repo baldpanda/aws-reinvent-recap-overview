@@ -73,7 +73,8 @@ Overall, Knowledge base looks like a powerful tool to get a RAG system up and ru
 
 "Agents orchestrate interactions between foundation models, data sources, software applications, and user conversations, and automatically call APIs to take actions and invoke knowledge bases to supplement information for these actions." 
 
-Can use agents to automate multistage tasks with integrations with foundation models, knowledge bases, RAG systems and custom API calls. It provides prompt templates out of the box which can be customised for different use-cases and chain of thought reasoning can be configured for tracing why the agent did certain actions for a given step. 
+Can use agents to automate multistage tasks with integrations with foundation models, knowledge bases, RAG systems and custom API calls. It provides prompt templates out of the box which can be customised for different use-cases and chain of thought reasoning can be configured for tracing why the agent did certain actions for a given step. Agents automatically create prompts based on user input. This includes things like filtering out harmful content and queries.
+
 
 There was a [good demo](https://makit.net/blog/bedrock-agents-and-knowledge-bases-part-2/) on the day where the speaker used Bedrock Agents combined with the Jira API for doing tasks like inspecting a codebase as a Knowledge base, carrying out some code quality checks and then creating Jira tickets off the back of it. Was really impressive and a good example for demoing the potenial usecases!
 
@@ -83,11 +84,9 @@ Bedrock - Using Agents to build workflows:
 
 ![A39D6237-D655-48F7-82D6-7FB1A46AEAB5](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/07c6367f-a4ee-42c8-b60d-f4fffdf50e51)
 
+**Aside**
+
 Support for fine-tuning Claude coming soon
-
-Agents automatically create prompts based on user input. This includes things like filtering out harmful content and queries
-
-Agents can provide chain of thought reasoning on why they executed tasks in a certain way
 
 AWS’s OpenSearch Vector DB can be expensive
 
