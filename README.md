@@ -93,7 +93,7 @@ Bedrock - Using Agents to build workflows:
 ### General Notes - Amazon Code Whisperer
 
 [Amazon Code Whisperer](https://aws.amazon.com/pm/codewhisperer) is a similar service to GitHub Copilot to be used for helping developers write code. Integrates in a similar way with IDEs. Close integration with [CodeGuru](https://aws.amazon.com/codeguru/) for identifying security vulnerabilities in a code base. Supposed to be good for developing AWS services.
-![3241F6B3-2346-4F87-B7D1-8BA92B225C81](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/deb6a112-83c2-412d-9e0f-128e54e76fc1). Can run scans directly in IDE such as VS Code as well as CI pipeline. Supposed to be good for developing AWS services (can be used directly in SageMaker and Lambda).
+![3241F6B3-2346-4F87-B7D1-8BA92B225C81](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/deb6a112-83c2-412d-9e0f-128e54e76fc1) Can run scans directly in IDE such as VS Code as well as CI pipeline. Supposed to be good for developing AWS services (can be used directly in SageMaker and Lambda).
 
 ### General Notes - SageMaker Updates
 
