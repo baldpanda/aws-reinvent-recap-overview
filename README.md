@@ -86,9 +86,9 @@ Bedrock - Using Agents to build workflows:
 
 **Aside**
 
-Support for fine-tuning Claude coming soon
+* Support for fine-tuning Claude coming soon
 
-AWS’s OpenSearch Vector DB can be expensive
+* AWS’s OpenSearch Vector DB can be expensive. Docs on pricing [here](https://aws.amazon.com/opensearch-service/pricing/)
 
 ### General Notes - Amazon Code Whisperer
 
@@ -112,10 +112,10 @@ Clarify - supports explainability for foundational models such as metrics such a
 
 Can use decorators in AWS Python SDK for helping to productionise Data Science projects in SageMaker
 
-Referenced Resources Mentioned 
+### Referenced Resources Mentioned 
 
-[Frugal Architect](https://www.thefrugalarchitect.com/) - written by AWS CTO for building cost optimised applications
+* [Frugal Architect](https://www.thefrugalarchitect.com/) - written by AWS CTO for building cost optimised applications
 
-[Accelerate](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/) - book on building lean software using DevOps principles
+* [Accelerate](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/) - book on building lean software using DevOps principles
 
-[AWS Docs Agents](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html)
+* [AWS Docs Agents](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html)
