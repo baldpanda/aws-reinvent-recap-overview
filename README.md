@@ -95,17 +95,17 @@ Bedrock - Using Agents to build workflows:
 [Amazon Code Whisperer](https://aws.amazon.com/pm/codewhisperer) is a similar service to GitHub Copilot to be used for helping developers write code. Integrates in a similar way with IDEs. Close integration with [CodeGuru](https://aws.amazon.com/codeguru/) for identifying security vulnerabilities in a code base. Supposed to be good for developing AWS services.
 ![3241F6B3-2346-4F87-B7D1-8BA92B225C81](https://github.com/baldpanda/aws-reinvent-recap-overview/assets/37364932/deb6a112-83c2-412d-9e0f-128e54e76fc1). Can run scans directly in IDE such as VS Code as well as CI pipeline. Supposed to be good for developing AWS services (can be used directly in SageMaker and Lambda).
 
-### General Notes - SageMaker
+### General Notes - SageMaker Updates
 
-Host multiple models on a single inference endpoints for cost optimisation
+* Possible to host multiple models on a single inference endpoints for cost optimisation
 
-Can productionise notebooks using pipelines and construct DAGs using them. Could be useful for things like data pre-processing
+* Can productionise notebooks using pipelines and construct DAGs using them. Could be useful for things like data pre-processing
 
-Canvas - no/low code tooling now supports Foundational models. Can use natural language for manipulating data
+* Canvas - no/low code tooling now supports Foundational models. Can use natural language for manipulating data
 
-Clarify - supports explainability for foundational models such as metrics such as toxicity (responsible AI)
+* Clarify - supports explainability for foundational models such as metrics such as toxicity (responsible AI)
 
-Can use decorators in AWS Python SDK for helping to productionise Data Science projects in SageMaker
+* Can use decorators in AWS Python SDK for helping to productionise Data Science projects in SageMaker
 
 ### Referenced Resources Mentioned 
 
